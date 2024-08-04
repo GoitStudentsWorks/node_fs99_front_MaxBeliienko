@@ -14,7 +14,7 @@ import "./localization/i18n.js";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename='/node_fs99_front_MaxBeliienko'>
         <HelmetProvider>
           <PersistGate loading={null} persistor={persistor}>
             <App />
